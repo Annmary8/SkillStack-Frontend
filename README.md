@@ -6,7 +6,6 @@ This is the **ReactJS frontend** of the project.
 
 ---
 
-
 ## 💡 Features
 
 - Add new skills with:

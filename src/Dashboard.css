@@ -28,18 +28,53 @@
 }
 
 .skill-card {
-  background-color: #fefefe;
-  padding: 15px 20px;
-  margin-bottom: 20px;
-  border: 1px solid #ddd;
-  border-radius: 10px;
-  transition: all 0.2s ease-in-out;
+  background-color: #fff;
+  padding: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 0.95rem;
 }
 
-.skill-card:hover {
-  transform: scale(1.02);
-  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.15);
+.skill-card h3 {
+  margin: 0 0 10px;
+  font-size: 1.1rem;
+  color: #333;
 }
+
+.skill-card p {
+  margin: 4px 0;
+}
+
+.skill-card .btn-group {
+  margin-top: 10px;
+}
+
+.skill-card button {
+  padding: 5px 10px;
+  font-size: 0.85rem;
+  margin-right: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.skill-card button:first-child {
+  background-color: #007bff;
+  color: white;
+}
+
+.skill-card button:last-child {
+  background-color: #dc3545;
+  color: white;
+}
+
+
+.edit-form button {
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
 
 .progress-title {
   margin-bottom: 20px;

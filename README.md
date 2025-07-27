@@ -1,12 +1,58 @@
-# React + Vite
+# SkillStack – Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SkillStack is a personal skill-building tracker that helps users manage and track their learning goals like courses, tutorials, and certifications.
 
-Currently, two official plugins are available:
+This is the **ReactJS frontend** of the project.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 💡 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Add new skills with:
+  - Skill name
+  - Category (e.g., Programming, Design)
+  - Resource type (video, course, article)
+  - Platform (Udemy, YouTube, Coursera, etc.)
+  - Learning status (Started, In-Progress, Completed)
+  - Hours spent, estimated hours, difficulty, notes, and URL
+
+- Dashboard to:
+  - View progress summary
+  - See category-wise and status-wise breakdown
+  - Track total hours spent
+
+- Simple and clean UI with:
+  - React Router navigation
+  - Forms with validation
+  - Responsive design (mobile-friendly)
+
+---
+
+## 🖼️ Screenshots
+
+### Dashboard
+
+![Dashboard Screenshot](screenshots/dashboard.png)
+
+### Add Skill Page
+
+![Add Skill Form Screenshot](screenshots/add-skill.png)
+
+
+---
+
+## 🛠️ Tech Stack
+
+- ReactJS
+- Axios
+- React Router
+
+---
+
+## ▶️ Getting Started
+
+```bash
+git clone https://github.com/Annmary8/SkillStack-Frontend.git
+cd SkillStack-Frontend
+npm install
+npm start

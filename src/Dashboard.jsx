@@ -12,7 +12,7 @@ const Dashboard = () => {
 
     const fetchSkills = async () => {
         try {
-            const res = await axios.get('http://localhost:8000/api/skills/');
+            const res = await axios.get('https://skillstackbyannmary.onrender.com/api/skills/');
             const data = res.data;
             setSkills(data);
 
@@ -49,7 +49,7 @@ const Dashboard = () => {
 
     const handleDelete = async (id) => {
         try {
-            await axios.delete(`http://localhost:8000/api/skills/${id}/`);
+            await axios.delete(`https://skillstackbyannmary.onrender.com/api/skills/${id}/`);
             fetchSkills();
         } catch (err) {
             console.error('Delete failed:', err);
@@ -67,7 +67,7 @@ const Dashboard = () => {
 
     const handleEditSubmit = async () => {
         try {
-            await axios.put(`http://localhost:8000/api/skills/${editingSkillId}/`, editFormData);
+            await axios.put(`https://skillstackbyannmary.onrender.com/api/skills/${editingSkillId}/`, editFormData);
             setEditingSkillId(null);
             fetchSkills();
         } catch (err) {

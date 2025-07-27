@@ -26,7 +26,7 @@ const SkillForm = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      await axios.post("http://localhost:8000/api/skills/", formData);
+      await axios.post("https://skillstackbyannmary.onrender.com/api/skills/", formData);
       navigate("/dashboard");
     } catch (error) {
       console.error("Error submitting skill:", error);

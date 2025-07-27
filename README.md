@@ -39,7 +39,6 @@ This is the **ReactJS frontend** of the project.
 
 ![Add Skill Form Screenshot](screenshots/add-skill.png)
 
-
 ---
 
 ## 🛠️ Tech Stack
